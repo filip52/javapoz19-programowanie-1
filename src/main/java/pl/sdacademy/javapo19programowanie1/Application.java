@@ -1,8 +1,8 @@
 package pl.sdacademy.javapo19programowanie1;
 
 
-import java.net.SocketTimeoutException;
-import java.sql.SQLOutput;
+import pl.sdacademy.javapo19programowanie1.books.Author;
+
 import java.util.*;
 
 public class Application {
