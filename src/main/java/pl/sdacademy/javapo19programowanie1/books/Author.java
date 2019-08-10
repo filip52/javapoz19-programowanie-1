@@ -1,7 +1,5 @@
 package pl.sdacademy.javapo19programowanie1.books;
 
-import pl.sdacademy.javapo19programowanie1.Nation;
-
 import java.util.Objects;
 
 public class Author {
