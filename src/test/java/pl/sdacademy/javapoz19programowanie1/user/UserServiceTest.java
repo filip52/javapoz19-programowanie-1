@@ -3,14 +3,14 @@ package pl.sdacademy.javapoz19programowanie1.user;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.sdacademy.javapo19programowanie1.books.User.Gender;
-import pl.sdacademy.javapo19programowanie1.books.User.User;
-import pl.sdacademy.javapo19programowanie1.books.User.UserService;
+import pl.sdacademy.javapoz19programowanie1.books.User.Gender;
+import pl.sdacademy.javapoz19programowanie1.books.User.User;
+import pl.sdacademy.javapoz19programowanie1.books.User.UserService;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static pl.sdacademy.javapo19programowanie1.books.User.Gender.female;
+import static pl.sdacademy.javapoz19programowanie1.books.User.Gender.female;
 
 public class UserServiceTest {
 

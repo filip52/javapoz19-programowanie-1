@@ -1,9 +1,8 @@
-package pl.sdacademy.javapo19programowanie1.books.User;
+package pl.sdacademy.javapoz19programowanie1.books.User;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class UserService {

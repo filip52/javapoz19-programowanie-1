@@ -1,4 +1,4 @@
-package pl.sdacademy.javapo19programowanie1.books.User;
+package pl.sdacademy.javapoz19programowanie1.books.User;
 
 public class User {
     private String name;

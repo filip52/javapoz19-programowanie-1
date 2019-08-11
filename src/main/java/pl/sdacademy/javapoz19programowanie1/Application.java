@@ -1,19 +1,19 @@
-package pl.sdacademy.javapo19programowanie1;
+package pl.sdacademy.javapoz19programowanie1;
 
 
-import pl.sdacademy.javapo19programowanie1.books.Author;
-import pl.sdacademy.javapo19programowanie1.books.Nation;
+import pl.sdacademy.javapoz19programowanie1.books.Author;
+import pl.sdacademy.javapoz19programowanie1.books.Nation;
 
 import java.util.*;
 
 public class Application {
     public static void main(String[] args) {
-        Author autor1 = new Author("Joanne", "Murray", 1965, Nation.ENG);
-        Author autor2 = new Author("Stanisław", "Lem", 1921, Nation.PL);
-        Author author = new Author();
-        author.setFirstName("Stephen");
-        author.setLastName("King");
-        author.setBirthYear(1947);
+            Author autor1 = new Author("Joanne", "Murray", 1965, Nation.ENG);
+            Author autor2 = new Author("Stanisław", "Lem", 1921, Nation.PL);
+            Author author = new Author();
+            author.setFirstName("Stephen");
+            author.setLastName("King");
+            author.setBirthYear(1947);
         author.setNation(Nation.USA);
 
         List<Author> authors = Arrays.asList(author, autor1, autor2,
