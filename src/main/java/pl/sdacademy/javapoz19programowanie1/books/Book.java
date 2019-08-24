@@ -2,7 +2,7 @@ package pl.sdacademy.javapoz19programowanie1.books;
 
 public class Book {
     private String title;
-    private int relaseYear;
+    private int releaseYear;
     private int pages;
     private  Author author;
 
@@ -13,11 +13,12 @@ public class Book {
         return author;
     }
 
-    public Book(String title, int relaseYear, int pages, Author author) {
+    public Book(String title, int releaseYear, int pages, Author author) {
         this.title = title;
-        this.relaseYear = relaseYear;
+        this.releaseYear = releaseYear;
         this.pages = pages;
         this.author = author;
+
     }
 
 
@@ -25,8 +26,9 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "title='" + title + '\'' +
-                ", relaseYear=" + relaseYear +
+                ", releaseYear=" + releaseYear +
                 ", pages=" + pages +
+                ", author=" + author.getFirstName() + " " + author.getLastName() +
                 '}';
     }
 
@@ -38,12 +40,12 @@ public class Book {
         this.title = title;
     }
 
-    public int getRelaseYear() {
-        return relaseYear;
+    public int getReleaseYear() {
+        return releaseYear;
     }
 
-    public void setRelaseYear(int relaseYear) {
-        this.relaseYear = relaseYear;
+    public void setReleaseYear(int releaseYear) {
+        this.releaseYear = releaseYear;
     }
 
     public int getPages() {

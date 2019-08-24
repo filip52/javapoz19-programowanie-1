@@ -77,6 +77,9 @@ public class Author {
         this.birthYear = birthYear;
     }
 
+    public String getFullName(){
+        return firstName + " " + lastName;
+    }
 
 }
 

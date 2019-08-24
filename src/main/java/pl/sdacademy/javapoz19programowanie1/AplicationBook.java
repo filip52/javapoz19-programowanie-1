@@ -38,7 +38,7 @@ public class AplicationBook {
                 .sum() / (double) books.size()));
 
         books.stream()
-                .filter(book -> book.getRelaseYear() < 2000)
+                .filter(book -> book.getReleaseYear() < 2000)
                 .filter(book -> book.getPages() > 300)
                 .map(book -> book.getTitle())
                 .forEach(bookTitle -> System.out.println(bookTitle));
