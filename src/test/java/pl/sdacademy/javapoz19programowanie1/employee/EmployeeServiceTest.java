@@ -95,6 +95,7 @@ public class EmployeeServiceTest {
         Double result = employeeService.getAvgSalaryOfAgeSegment(50);
 
         Assert.assertEquals(0.0,result,0.1);
+
     }
 
 }
